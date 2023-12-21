@@ -8,7 +8,7 @@
 </head>
 <body>
     <form action="/submit" method="post">
-      <input type="text" name="countryname">
+      <input type="text" name="countryname" placeholder="<%= locals.error?error:"enter the country name" %>">
       <input type="submit">
     </form>
     <section class="ag-canvas">
